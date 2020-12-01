@@ -25,9 +25,9 @@ apps:
 
 parts:
   application:
-    source-type: git
-    source: https://github.com/BelledonneCommunications/linphone-desktop.git
-    plugin: qmake
+    source: https://github.com/BelledonneCommunications/linphone-desktop/archive/4.2.4.tar.gz
+    source-subdir: linphone-desktop
+    plugin: cmake
     qt-version: qt5
     after: [desktop-qt5]
     
